@@ -1,0 +1,99 @@
+<!-- Linguaggi e Tecnologie per il Web - Progetto
+	 Master view
+	 Matteo Giaccone, Paolo Lucchesi
+  -->
+
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SudTirol Hotel Group</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="/assets/styles/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Main style sheet -->
+    <link href="/assets/styles/main.css" rel="stylesheet">
+
+  </head>
+
+
+  <body data-spy="scroll" data-target="#navbar">
+
+    <!-- Dynamic sections -->
+    <% include ./navbar.ejs %>
+    <% include ./home.ejs %>
+    <div class="spacer"></div>
+    <% include ./baita.ejs %>
+    <!--div class="spacer"></div-->
+    <% include ./chalet.ejs %>
+    <!--div class="spacer"></div-->
+    <% include ./excelsior.ejs %>
+    <!--div class="spacer"></div-->
+
+	<!-- Booking form -->
+    <section id="iscriviti">
+      <span class="anchor-parallax" id="contatti-panel"></span>
+      <h3 class="titolo-principale text-center"> Prenotazione</h3>
+      <p class="sottotitolo text-center">Per richiedere una camera, inserisci i tuoi dati.</p>
+      <p class="sottotitolo text-center">Ti contatteremo al più presto!</p>
+
+      <form action="">
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Cognome">
+        <input type="text" placeholder="Email">
+
+        <select type="text">
+          <option>--Numero di Ospiti Adulti--</option>
+          <option>Uno</option>
+          <option>Due</option>
+          <option>Tre</option>
+          <option>Quattro</option>
+          <option>Cinque</option>
+          <option>Sei</option>
+          <option>Sette</option>
+          <option>Otto</option>
+        </select>
+
+        <select type="text">
+          <option>--Numero di Ospiti Bambini--</option>
+          <option>Uno</option>
+          <option>Due</option>
+          <option>Tre</option>
+          <option>Quattro</option>
+          <option>Cinque</option>
+          <option>Sei</option>
+          <option>Sette</option>
+          <option>Otto</option>
+        </select>
+        <select type="text" placeholder="Struttura:">
+          <option>--Seleziona la Struttura--</option>
+          <option>La Baita</option>
+          <option>Lo Chalet</option>
+          <option>Excelsior</option>
+        </select>
+        <div class="spacer"></div>
+        <input type="submit" value="Prenota">
+      </form>
+    </section>
+
+    <div class="spacer"></div>
+
+    <footer>
+      <p class="text-center">SudTirol Hotel Group - Matteo Giaccone &amp Paolo Lucchesi (Progetto Linguaggi e Tecnologie per il Web)</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/navbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,302 @@
+/* ----------------------------------------------------------------------------
+ *	Project for 'Linguaggi e Tecnologie per il Web'
+ *	Authors: Matteo Giaccone, Paolo Lucchesi
+ *	Server - Main source file
+ * ------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------
+ *  Top-level style sheets
+ * ------------------------------------------------------------------------- */
+
+body {
+	font-family: "Source Sans Pro";
+	color:#476f8c;
+}
+
+.anchor-parallax {
+	display: block;
+	height: 100px;
+	margin-top: -100px;
+	visibility: hidden;
+}
+
+#location-panel.anchor-parallax {
+	margin-top: -60px;
+	height: 60px;
+}
+
+.spacer {
+	height: 70px;
+}
+
+.animate {
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Navigation bar
+ * ------------------------------------------------------------------------- */
+
+.navbar {
+	min-height: 70px
+}
+
+.navbar.navbar-inverse {
+	background-color: #486f8b;
+	border-bottom: 0;
+}
+
+.navbar-inverse .navbar-toggle {
+	margin-top: 15px;
+}
+
+.navbar-brand, .navbar-nav li a {
+	padding-top: 0;
+	line-height: 70px;
+	height: 70px;
+	font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:#fff;
+}
+
+.img-logo {
+	width: auto;
+	height: 70px;
+}
+
+.parallax {
+	padding: 200px 100px 100px 100px;
+	text-align: center;
+	color:#fff;
+}
+
+/* -------------------------------------------------------------------------
+ *  Cover
+ * ------------------------------------------------------------------------- */
+
+#cover {
+	background: url("/assets/images/cover.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.data {
+	color: #c9ff27;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.titolo-principale {
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.sottotitolo {
+	font-size: 35px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.button{background-color: #c9ff27;
+	color:#476f8c;
+	padding: 10px 30px;
+	display: inline-block;
+	border-radius: 30px;
+	margin: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.arrow .fa{font-size: 62px;}
+
+
+/* -------------------------------------------------------------------------
+ *  Focus
+ * ------------------------------------------------------------------------- */
+
+.titolo-secondario {
+	font-size:36px;
+	color:#000;
+	font-weight: bold;
+}
+
+.trattino{
+	width: 30px;
+	height: 10px;
+	background-color: #c9ff27;
+   	margin-bottom:20px;
+   	margin-top: 20px;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Strutture
+ * ------------------------------------------------------------------------- */
+
+#baita {background: url("/assets/images/baita.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top:70px;
+	padding-bottom: 30px;
+}
+
+#chalet {
+	background: url("/assets/images/chalet.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top:70px;
+	padding-bottom: 30px;
+}
+
+#hotel {
+	background: url("/assets/images/hotel.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top:70px;
+	padding-bottom: 30px;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Lista Step
+ * ------------------------------------------------------------------------- */
+
+#lista-step h3{
+	color: #999;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.step{
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Location
+ * ------------------------------------------------------------------------- */
+
+.bg-row {
+	background-color: #ebf7f8;
+}
+
+.contenuto-location {
+	padding: 20px 40px;
+}
+
+.contenuto-location .titolo-principale{
+	margin-bottom: 40px;
+}
+
+.no-margin{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Form
+ * ------------------------------------------------------------------------- */
+
+#iscriviti .sottotitolo{
+	color: #444;
+	font-size: 30px;
+}
+
+#iscriviti form {
+	max-width:600px;
+	margin: 40px auto;
+	text-align: center
+}
+
+#iscriviti input[type=text] {
+	width:100%;
+	padding: 10px;
+	border: 2px solid #ccc;
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+
+#iscriviti input[type=submit] {
+	background-color: #c9ff27;
+	color:#476f8c;
+	padding: 10px 30px;
+	display: inline-block;
+	border-radius: 30px;
+	border:none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#iscriviti select[type=text] {
+	color: #476f8c;
+	width:100%;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid #ccc;
+	margin-bottom: 30px;
+	font-size: 32px;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Footer
+ * ------------------------------------------------------------------------- */
+
+footer {
+	background-color: #486f8c;
+	padding: 40px;
+}
+
+footer p{
+	color: #fff;
+	margin-bottom: 0px;
+}
+
+
+/* -------------------------------------------------------------------------
+ *  Media queries
+ * ------------------------------------------------------------------------- */
+
+/* Desktop */
+@media (min-width: 1023px) {
+	.navbar{margin-top: 20px;}
+	.navbar.navbar-inverse{background-color: transparent;border-bottom: 0;}
+	.navbar-inverse .navbar-nav > .active > a,
+	.navbar-inverse .navbar-nav > .active > a:hover,
+	.navbar-inverse .navbar-nav > .active > a:focus{
+		background-color: transparent;
+		color: #c9ff27;
+	}
+}
+
+/* Tablet */
+@media (max-width: 1024px){
+	.navbar{background-color: #486f8b!important;margin-top: 0!important}
+	.parallax { padding: 100px 50px 50px 50px;}
+	.titolo-principale{font-size: 40px;}
+	.module{margin-bottom: 60px;}
+
+}

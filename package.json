@@ -1,0 +1,18 @@
+{
+  "name": "ltw-project",
+  "version": "1.0.0",
+  "description": "Project for 'Linguaggi e Tecnologie per il Web'",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Paolo Lucchesi, Matteo Giaccone",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "collections": "^5.1.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemailer": "^4.7.0",
+    "pg": "^7.6.1"
+  }
+}

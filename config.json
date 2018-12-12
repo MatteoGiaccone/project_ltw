@@ -1,0 +1,17 @@
+{
+	"db": {
+		"user": "jcondor",
+		"host": "localhost",
+		"database": "prova",
+		"port": 5432
+	},
+	"mail": {
+		"sendmail": true,
+		"newline": "unix",
+		"path": "/usr/bin/sendmail"
+	},
+	"server": {
+		"port": 8080,
+		"mail_address": "server@alberghitrentino.it"
+	}
+}

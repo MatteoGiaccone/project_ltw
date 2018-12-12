@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="51.150cm" height="29.800cm" viewBox="40.950 7.950 92.100 37.750"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="41.000" y="8.000" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="41.000" y="8.000" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="46.025" y="10.436"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Home</text>
+<rect x="50.000" y="34.000" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="50.000" y="34.000" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="55.025" y="36.436"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Chalet</text>
+<rect x="66.000" y="34.000" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="66.000" y="34.000" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="71.025" y="36.436"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Cottage</text>
+<rect x="82.000" y="34.000" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="82.000" y="34.000" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="87.025" y="36.436"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Luxury</text>
+<rect x="53.975" y="19.150" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="53.975" y="19.150" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="59.000" y="21.586"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Bookings</text>
+<rect x="67.975" y="19.150" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="67.975" y="19.150" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="73.000" y="21.586"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Project</text>
+<text x="41.800" y="8.585"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<text x="57.175" y="19.745"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+POST</text>
+<text x="50.790" y="34.580"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<text x="66.790" y="34.580"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<text x="82.790" y="34.580"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<text x="54.765" y="19.730"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<text x="68.765" y="19.730"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="46.025,11.700 46.025,14.000 86.000,14.000 86.000,19.150 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="59.000,14.000 59.000,16.575 59.000,16.575 59.000,19.150 "/>
+<line x1="71.000" y1="29.000" x2="71.025" y2="34.000" stroke="#000000" stroke-width="0.100" />
+<line x1="55.000" y1="29.000" x2="55.025" y2="34.000" stroke="#000000" stroke-width="0.100" />
+<line x1="55.534" y1="33.950" x2="58.434" y2="23.116" stroke="#FF0000" stroke-width="0.100" />
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="58.575,23.556 58.462,23.008 58.092,23.427 "/>
+<line x1="69.486" y1="33.950" x2="60.679" y2="23.074" stroke="#FF0000" stroke-width="0.100" />
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="61.118,23.218 60.609,22.987 60.729,23.533 "/>
+<line x1="83.439" y1="33.950" x2="62.784" y2="23.005" stroke="#FF0000" stroke-width="0.100" />
+<polyline fill="none" stroke="#FF0000" stroke-width="0.100"  points="63.244,22.966 62.685,22.953 63.010,23.408 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="46.025,11.700 46.025,29.000 87.025,29.000 87.025,34.000 "/>
+<rect x="80.975" y="19.150" width="10.050" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="80.975" y="19.150" width="10.050" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="86.000" y="21.586"  fill="#000000" text-anchor="middle" font-size="2.12" font-family="sans" font-style="normal" font-weight="400">
+Cancel</text>
+<text x="81.775" y="19.735"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+GET</text>
+<text x="84.525" y="19.735"  fill="#FF0000" text-anchor="middle" font-size="0.85" font-family="sans" font-style="normal" font-weight="700">
+DELETE</text>
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="73.000,14.000 73.000,16.575 73.000,16.575 73.000,19.150 "/>
+</svg>
